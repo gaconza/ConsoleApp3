@@ -10,14 +10,22 @@ namespace ConsoleApp3
     {
         class Human
         {
+
             public string SayName(string s, int a)
             {
                 if (a<0)
                 {
                     a = 0;
+                    
+                }
+                if (s != string.Empty)
+                {
+
                     Console.WriteLine("logged name and age: "+ s+" "+a);
                 }
                 return s+a;
+
+           
             }
         }
         static void Main(string[] args)
