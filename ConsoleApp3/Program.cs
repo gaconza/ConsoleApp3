@@ -8,6 +8,13 @@ namespace ConsoleApp3
 {
     internal class Program
     {
+        class Human
+        {
+            public string SayName()
+            {
+                return "s";
+            }
+        }
         static void Main(string[] args)
         {
         }
